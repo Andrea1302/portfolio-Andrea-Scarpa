@@ -1,0 +1,15 @@
+.defaultBtn{
+    padding: 12px 24px;
+    font-family: 'Unica One';
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+.primary{
+    color : #3F36C1;
+    background-color: #fff;
+}
+.secondary{
+    color : #fff;
+    background-color: #3F36C1;
+}
