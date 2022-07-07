@@ -1,13 +1,6 @@
-import React from "react"
-
-import Button from "./ui/Button"
 const Layout = () => {
     return (
-        <>
-        Layout 
-            <Button text="ciao" callback={()=>console.log('ciao')}/>
-        </>
+        <div className="container"> layout </div>
     )
 }
-
 export default Layout

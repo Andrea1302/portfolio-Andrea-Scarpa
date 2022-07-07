@@ -1,0 +1,42 @@
+.container{
+    min-height:  100vh;
+    background-color: #3F36C1;
+}
+.container.entryContainer{
+    background-color: #CFF43B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoStyle{
+    width: 160px;
+    height: 160px;
+    animation: logoAnimation 1s linear ;
+    z-index: 2;
+}
+.second_animation{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #3F36C1;
+    animation: secondAnimation 1s linear;
+}
+
+@keyframes logoAnimation {
+    0%   {transform:scale(.3);}
+   50%  {transform:scale(.67);}
+   100% {transform:scale(1);}
+}
+
+@keyframes secondAnimation {
+    0%   {
+        transform:translate(-50%,-50%) scale(1);
+    }
+    100% {
+        transform:translate(-50%,-50%) scale(20);
+    }
+}
