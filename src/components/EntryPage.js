@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react"
 import { useNavigate } from "react-router";
-import './uiStyle/EntryPage.css';
+import './componentsStyle/EntryPage.css';
 import Logo from '../assets/logoPortfolio.png'
 const EntryPage = () => {
     const navigate = useNavigate()
@@ -14,7 +14,7 @@ const EntryPage = () => {
 
     useEffect(() => {
         logoRef.current.addEventListener("animationend", callbackAnimationFinished, false);
-        if (state.isFirstAnimationFinished) {
+        if (scaleAnimation?.current) {
             scaleAnimation?.current.addEventListener("animationend", callbackStartWebSite, false);
         }
 

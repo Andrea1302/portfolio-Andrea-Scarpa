@@ -1,6 +1,11 @@
+import './componentsStyle/Layout.css';
+// components 
+import Header from './Header'
 const Layout = () => {
     return (
-        <div className="container"> layout </div>
+        <div className="container">
+            <Header />
+        </div>
     )
 }
 export default Layout

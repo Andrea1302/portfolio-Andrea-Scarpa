@@ -1,8 +1,8 @@
 import React from "react";
 import '../uiStyle/Button.css'
-const Button = ({ text, callback, cssCustom, bg }) => {
+const Button = ({ text, callback, cssCustom, bg,styleBtn }) => {
     return (
-        <button className={bg === 'primary' ? `${cssCustom} primary` : `${cssCustom} secondary`
+        <button style={styleBtn} className={bg === 'primary' ? `${cssCustom} primary` : `${cssCustom} secondary`
         } onClick={callback} >
             {text}
         </button >

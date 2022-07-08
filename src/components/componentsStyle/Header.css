@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+header{
+    height: 15vh;
+    padding: 3vh 10vw;
+    font-family: 'Unica One';
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .profile_info{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.profile_info h2{
+    margin-left: 24px;
+    font-size: 32px;
+}
+.profile_info .separator{
+    height: 50%;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 8px;
+}
+.profile_info span{
+    font-family: 'Montserrat', sans-serif;
+}
+header .logo_header{
+    height: 100%;
+}
+header .contact_cv{
+    font-family: 'Unica One';
+    display: flex;
+    align-items: center;
+}
+.contact_cv .download{
+    text-decoration: none;
+    color: #fff;
+}
